@@ -1,0 +1,36 @@
+---
+title: "Paper Proposal: The Effects of Rumors and Its Rebuttals on Government Trust in China"
+author: "Bavo Stevens and Se Hyun Kim"
+output: pdf_document
+font: Times New Roman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## I. Replication Paper
+Huang, Heifeng. 2015. "A War of (Mis)Information: The Political Effects of Rumors and Rumor Rebuttals in an Authoritarian Country." *British Journal of Political Science* 47: 283-311.
+
+## II. Research Question
+The replication paper examines the effects of rumors and the rumor rebuttals on government trust. Specifically, the paper argues that while 
+
+## III. Hypothesis
+### 1. Rumors will reduce people's trust in and support of the government (Huang 2015: 288).  
+### 2. Rebuttals as alternative framings can be expected to decrease, though not eliminate, recipients' belief in their specific content (Huang 2015: 289).  
+### 3a. Rebuttals in the form of simple or perfunctory denials *and* from sources lacking a broad reputation of being independent of the government will not be effective in improving people's trust in the government that was previously damaged by rumors (Huang 2015: 290).  
+### 3b. Rebuttals that offer vivid evidence and forceful explanation, *and/or* are from a source that is widely perceived to be independent from (and even critical of) the government can improve citizens' political trust that was previously damaged by rumors (Huang 2015: 290)
+What is interesting about these hypotheses is that refuting the facticity of a rumor is independent from recovering trust damaged by the rumor. The damage to trust caused by a rumor cannot be recovered even if the belief in the fact of a rumor is successfully removed. For example, rumor A caused the people to lose trust in their government. When the government refutes and people no longer believe that the events concerning rumor A took place, people's trust in their government will not be recovered. Recovery of that trust requires that an independent party also support the rebuttal of the government.
+
+## IV. Data
+### A. Recruitment
+The research employs survey data. The total number of valid units is 1430. The first experiment contains 631 observations and the second experiment contains 799 observations. The participants were recruited through a Chinese crowd-sourcing website (www.zhubajie.com). The survey itself was conducted on an external survey website. The surveys were conducted anonymously. To avoid repetitive participation, multiple participation of a single IP address and account (of the crowd-sourcing website) were prohibited. To avoid careless participants, the author removed any sample that completed the survey faster than a pre-determined time or implemented a time threshold for each survey page.  
+
+### B. Variables
+Dependent variable 1: Exposure to Rumors (binary)
+Dependent variable 2: Exposure to Rebuttals (binary)
+Independent variable: Political Trust (Discrete, Likert Scale from 1 to 7)
+Covariates: News Consumption, Political Interest, Life Satisfaction, Pro-West, Age, Male, Education, Income, CCP Membership.
+
+## V. Potential Way of Improvement
+One possible way of improving the research is to consider the selection bias into different treatments. For each experiment, the participants are randomly assigned into five groups: control group (no exposure to rumors and rebuttals), rumors group (exposure to rumors A & B), rebuttal A group (exposure to rumors A & B and rebuttal for A), rebuttal B group (exposure to rumors A & B and rebuttal for B), rebuttal A & B group (exposure to rumors A & B and rebuttals for A & B). With a limited number of observations, each group is assigned 120 to 200 observations each. However, the distribution of the covariates among these groups is not guaranteed (the author does test the distribution of the covariates between the two experiments). Therefore, by **matching** the covariates among different groups within each experiment, the effects of rumor on government trust can be better observed.
